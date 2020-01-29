@@ -1,3 +1,16 @@
+> key_for_min_value
+end
+
+ikea = {:chair => 25, :table => 85, :mattress => 450}
+key_for_min_value(ikea)
+# => :chair
+ 
+veggies = {"apple" => -45, "banana" => -44.5, "carrot" => -44.9}
+key_for_min_value(veggies)
+# => "apple"
+end
+
+
 describe "smallest hash value" do
 
   it "does not call the `#keys` method" do
